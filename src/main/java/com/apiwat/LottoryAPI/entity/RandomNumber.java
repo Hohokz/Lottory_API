@@ -27,7 +27,7 @@ public class RandomNumber {
     @Column(name = "twoNumberPrize")
     private String twoNumberPrize;
 
-    @Column(name = "create_date")
+    @Column(name = "createDate")
     private LocalDateTime createDate;
 
     @PrePersist
