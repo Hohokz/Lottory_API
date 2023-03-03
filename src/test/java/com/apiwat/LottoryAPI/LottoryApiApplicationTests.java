@@ -1,10 +1,10 @@
-package com.example.APILottory;
+package com.apiwat.LottoryAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApiLottoryApplicationTests {
+class LottoryApiApplicationTests {
 
 	@Test
 	void contextLoads() {
