@@ -64,6 +64,7 @@ public class LottoService {
         if (StringUtils.equals(keyword, randomNumber.getRandomSecondPrize())) {
             hitPrize.add("ยินดีด้วยคุณถูกรางวัลที่ 2");
         }
+        String twoDigi = keyword.substring(1);
         if (StringUtils.equals(keyword.substring(1), randomNumber.getTwoNumberPrize())) {
             hitPrize.add("ยินดีด้วยคุณถูกรางวัลเลขท้ายสองตัว");
         }

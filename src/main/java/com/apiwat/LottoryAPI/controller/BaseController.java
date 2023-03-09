@@ -23,8 +23,6 @@ public class BaseController {
     @GetMapping("/lotto")
     public ResponseEntity<String> getLotto() {
         return ResponseEntity.ok(gson.toJson(lottoService.getLotto()));
-
-
     }
 
     @PostMapping("/lotto")
